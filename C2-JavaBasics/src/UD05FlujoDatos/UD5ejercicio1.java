@@ -3,8 +3,8 @@ package UD05FlujoDatos;
 public class UD5ejercicio1 {
 
 	public static void main(String[] args) {
-		int num1 = 5;
-		int num2 = 5;
+		int num1 = 20;
+		int num2 = 20;
 		
 		if(num1 > num2) {
 			System.out.println( num1 + " es mayor que" + num2);
