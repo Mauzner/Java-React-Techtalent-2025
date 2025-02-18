@@ -8,7 +8,7 @@ public class UD5ejercicio3 {
 		
 		String nombre = JOptionPane.showInputDialog(" Introduce tu nombre ");
 		
-		JOptionPane.showMessageDialog( null, " Bienvenido " + nombre);
+		JOptionPane.showMessageDialog(null, " Bienvenido " + nombre);
 	}
 
 }
