@@ -10,7 +10,8 @@ public class UD5PruebaJOptionPane {
 		
 		final double IVA = 0.21;
 		
-		JOptionPane.showMessageDialog (null, "El precio de producto, incluido el IVA es " + (precioProducto + (precioProducto * IVA)));
+		JOptionPane.showMessageDialog (null,
+				"El precio de producto, incluido el IVA es " + (precioProducto + (precioProducto * IVA)));
 
 	}
 
