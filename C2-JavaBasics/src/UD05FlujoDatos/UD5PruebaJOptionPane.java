@@ -6,7 +6,7 @@ public class UD5PruebaJOptionPane {
 
 	public static void main(String[] args) {
 
-		int precioProducto = 1000;
+		int precioProducto = 1214;
 
 		final double IVA = 0.21;
 
