@@ -2,7 +2,7 @@ package UD05FlujoDatos;
 
 import java.util.Scanner;
 
-public class UD5ejercicio5 {
+public class UD5ejercicio05 {
 
 	public static void main(String[] args) {
 			

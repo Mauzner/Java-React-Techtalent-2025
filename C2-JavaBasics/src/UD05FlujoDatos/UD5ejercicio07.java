@@ -1,6 +1,6 @@
 package UD05FlujoDatos;
 
-public class UD5ejercicio7 {
+public class UD5ejercicio07 {
 
 	public static void main(String[] args) {
 		// Muestra los números del 1 al 100 (ambos incluidos). Usa un bucle while.

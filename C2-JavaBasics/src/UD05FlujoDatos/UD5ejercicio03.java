@@ -2,7 +2,7 @@ package UD05FlujoDatos;
 
 import javax.swing.JOptionPane;
 
-public class UD5ejercicio3 {
+public class UD5ejercicio03 {
 
 	public static void main(String[] args) {
 		
