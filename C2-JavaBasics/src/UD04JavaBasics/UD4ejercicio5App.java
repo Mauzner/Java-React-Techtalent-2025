@@ -5,6 +5,7 @@ public class UD4ejercicio5App {
 	    public static void main(String[] args) {
 	        // Declaramos las cuatro variables y les asignamos un valor
 	        int A = 10, B = 20, C = 30, D = 40;
+	        int B1 = B;
 
 	        // Mostramos los valores iniciales de las variables
 	        System.out.println("Valor inicial de A = " + A);
@@ -16,7 +17,7 @@ public class UD4ejercicio5App {
 	        B = C;
 	        C = A;
 	        A = D;
-	        D = B;
+	        D = B1;
 
 	        // Mostramos los valores finales de las variables
 	        System.out.println("\nValor final de A = " + A);
