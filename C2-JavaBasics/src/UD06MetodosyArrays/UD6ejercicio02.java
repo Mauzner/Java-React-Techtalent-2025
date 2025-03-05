@@ -31,7 +31,9 @@ public class UD6ejercicio02 {
         
 		}
 		   
-		scanner.close();	
+		scanner.close();
+			
+		
 
 	}
 	
