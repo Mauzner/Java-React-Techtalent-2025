@@ -25,7 +25,7 @@ public class UD6ejercicio11 {
 		System.out.println("Array random 1: ");
 		printArray(randomArray1);
 		System.out.println("Array random 2: ");
-		printArray(randomArray1);
+		printArray(randomArray2);
 		System.out.println("Multiplicación de los arrays: ");
 		printArray(randomArray3);
 
