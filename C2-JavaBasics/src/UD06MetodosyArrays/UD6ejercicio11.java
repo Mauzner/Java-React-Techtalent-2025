@@ -21,10 +21,16 @@ public class UD6ejercicio11 {
 		System.out.println("Array random 1: ");
 		printArray1(randomArray1);
 		System.out.println("Array random 2: ");
-		printArray2(randomArray2);
+		printArray2(randomArray1);
 
 		scanner.close();
+	
 	}
+
+	//private static int[] generarArray2(int[] randomArray1) {
+		 // TODO Auto-generated method stub
+		//return null;
+	
 
 	public static int[] generarRandomArray(int size, int max) {
 
@@ -37,21 +43,27 @@ public class UD6ejercicio11 {
 
 	}
 
-	// public static int[] generarArray2(int[] arrayPrimero) {
+	 public static int[] generarArray2(int lista []) {
 		
+		 
+		
+		for (int i = 0; i<lista.length; i++) {
+			System.out.println(lista[i]);
+		}
 		//Recorrer array1 para igualar array2
 		
 		
-		Randomizar array2
+		//Randomizar array2
 		
 
-//		int[] array2 = new int[size];
-//
-//		for (int i = 0; i < size; i++) {
-//			array2[i] = (int) (Math.random() * max);
-//		}
-		 //return array2;
-//	}
+		// int[] array2 = new int[size];
+
+		// for (int i = 0; i < size; i++) {
+		//array2[i] = (int) (Math.random() * max);
+		return lista;
+		}
+		 
+
 
 	public static void printArray1(int[] array) {
 		for (int i = 0; i < array.length; i++) {
