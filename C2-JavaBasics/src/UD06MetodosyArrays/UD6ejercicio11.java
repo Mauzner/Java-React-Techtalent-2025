@@ -21,7 +21,7 @@ public class UD6ejercicio11 {
 		//Multiplicar los arrays
 		int[] randomArray3= multiplicarArrays(randomArray1, randomArray2);
 		
-		
+		//Imprimir arrays
 		System.out.println("Array random 1: ");
 		printArray(randomArray1);
 		System.out.println("Array random 2: ");
@@ -33,7 +33,7 @@ public class UD6ejercicio11 {
 	
 	}
 
-	
+		//Método para generar un array e tamaño size y con valores aleatorios en el rango [0,max)
 	public static int[] generarRandomArray(int size, int max) {
 
 		int[] array1 = new int[size];
@@ -46,7 +46,7 @@ public class UD6ejercicio11 {
 	}
 
 	
-
+	//Método para imprimir un array
 	public static void printArray(int[] array) {
 		for (int i = 0; i < array.length; i++) {
 			System.out.println(array[i] + " ");
@@ -54,6 +54,7 @@ public class UD6ejercicio11 {
 		System.out.println();
 	}
 
+	//Método para multiplicar los elementos correspondientes de dos arrays
 	public static int[] multiplicarArrays(int[] array1, int[] array2) {
 		int[] array3 = new int[array1.length];
 		for (int i = 0; i < array1.length; i++) {
