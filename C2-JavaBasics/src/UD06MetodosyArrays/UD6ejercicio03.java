@@ -3,7 +3,7 @@ package UD06MetodosyArrays;
 public class UD6ejercicio03 {
 
 	public static void main(String[] args) {
-		int numPrimo = 73; 
+		int numPrimo = 58; 
 		
 		if (numeroPrimo(numPrimo)) {
 			System.out.printf("El %d es primo ", numPrimo).println();
