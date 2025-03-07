@@ -1,9 +1,13 @@
 package UD06MetodosyArrays;
 
+import javax.swing.JOptionPane;
+
 public class UD6ejercicio03 {
 
 	public static void main(String[] args) {
 		int numPrimo = 73; 
+		
+		numPrimo = Integer.parseInt(JOptionPane.showInputDialog(" Introduce el número ");
 		
 		if (numeroPrimo(numPrimo)) {
 			System.out.printf("El %d es primo ", numPrimo).println();
