@@ -14,24 +14,26 @@ public class UD6ejercicio11 {
 		System.out.print("Introduce el rango máximo del random: ");
 		int range = scanner.nextInt();
 		
+		// Genera el primer y segundo array con valores random
 		int[] randomArray1 = generarRandomArray(size, range);
+		int[] randomArray2 = generarRandomArray(size, range);
 		
-		int[] randomArray2 = generarArray2(randomArray1);
-
+		//Multiplicar los arrays
+		int[] randomArray3= multiplicarArrays(randomArray1, randomArray2);
+		
+		
 		System.out.println("Array random 1: ");
-		printArray1(randomArray1);
+		printArray(randomArray1);
 		System.out.println("Array random 2: ");
-		printArray2(randomArray1);
+		printArray(randomArray1);
+		System.out.println("Multiplicación de los arrays: ");
+		printArray(randomArray3);
 
 		scanner.close();
 	
 	}
 
-	//private static int[] generarArray2(int[] randomArray1) {
-		 // TODO Auto-generated method stub
-		//return null;
 	
-
 	public static int[] generarRandomArray(int size, int max) {
 
 		int[] array1 = new int[size];
@@ -43,38 +45,21 @@ public class UD6ejercicio11 {
 
 	}
 
-	 public static int[] generarArray2(int lista []) {
-		
-		 
-		
-		for (int i = 0; i<lista.length; i++) {
-			System.out.println(lista[i]);
-		}
-		//Recorrer array1 para igualar array2
-		
-		
-		//Randomizar array2
-		
+	
 
-		// int[] array2 = new int[size];
-
-		// for (int i = 0; i < size; i++) {
-		//array2[i] = (int) (Math.random() * max);
-		return lista;
-		}
-		 
-
-
-	public static void printArray1(int[] array) {
+	public static void printArray(int[] array) {
 		for (int i = 0; i < array.length; i++) {
-			System.out.println(array[i]);
+			System.out.println(array[i] + " ");
 		}
+		System.out.println();
 	}
 
-	public static void printArray2(int[] array) {
-		for (int i = 0; i < array.length; i++) {
-			System.out.println(array[i]);
+	public static int[] multiplicarArrays(int[] array1, int[] array2) {
+		int[] array3 = new int[array1.length];
+		for (int i = 0; i < array1.length; i++) {
+			array3[i] = array1[i] * array2[i];
 		}
+		return array3;
 	}
 
 }
