@@ -6,7 +6,7 @@ public class UD6ejercicio03 {
 		int numPrimo = 73; 
 		
 		if (numeroPrimo(numPrimo)) {
-			System.out.printf("El %d es primo o <=1", numPrimo).println();
+			System.out.printf("El %d es primo ", numPrimo).println();
 		} else {
 			System.out.printf("El %d no es primo", numPrimo).println(); 
 		}
