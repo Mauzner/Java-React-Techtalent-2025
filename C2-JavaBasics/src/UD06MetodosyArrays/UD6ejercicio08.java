@@ -10,6 +10,7 @@ public class UD6ejercicio08 {
 		int [] miArray= llenarArray(size);
 		imprimirArray(miArray);
 		
+		
 	}
 	
 	public static int[] llenarArray(int size) {
@@ -18,10 +19,13 @@ public class UD6ejercicio08 {
 		for (int i = 0; i < size; i++) {
 			System.out.print("Introduce un número: ");
 			array[i] = scanner.nextInt();
+			
+			
 		}
 		return array;
 		
 	}
+	
 	
 	
 	public static void imprimirArray (int[] array) {
