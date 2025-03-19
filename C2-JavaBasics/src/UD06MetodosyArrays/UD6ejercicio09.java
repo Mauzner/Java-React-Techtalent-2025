@@ -16,6 +16,7 @@ public class UD6ejercicio09 {
 		int array[] = llenaRandoms(max , min, tamany);
 		
 		sumaArray(array);
+		scanner.close();
 		
 	}
 	
