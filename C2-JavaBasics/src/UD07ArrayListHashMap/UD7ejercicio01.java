@@ -5,6 +5,7 @@ import java.util.HashMap;
 public class UD7ejercicio01 {
 
 	public static void main(String[] args) {
+		
 		HashMap< String, Double> notas = new HashMap<>();
 		notas.put("Juan", 5.5);
 		notas.put("Ana", 7.2);

@@ -24,11 +24,7 @@ public class UD7ejercicio03 {
 		producto.put("pescado", 6);
 		producto.put("queso", 4);
 		
-		
-		
-		
-		
-		 
+			 
 		
 	}
 
