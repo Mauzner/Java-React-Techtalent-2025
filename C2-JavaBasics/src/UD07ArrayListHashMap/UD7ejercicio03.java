@@ -3,7 +3,7 @@ package UD07ArrayListHashMap;
 import java.util.HashMap;
 import java.util.Scanner;
 
-import com.sun.tools.classfile.CharacterRangeTable_attribute.Entry;
+
 
 //import com.sun.org.apache.xerces.internal.util.SymbolHash.Entry;
 
