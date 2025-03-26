@@ -1,6 +1,5 @@
 package UD07ArrayListHashMap;
 
-import java.util.Scanner;
 
 public class UD7ejercicio04 {
 
