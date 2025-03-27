@@ -56,6 +56,7 @@ public class UD7ejercicio03 {
 					System.out.println("Saliendo...");
 					salir = true;
 					break;
+					
 				default:
 					System.out.println("Opción no válida, intenta de nuevo");
 			}
