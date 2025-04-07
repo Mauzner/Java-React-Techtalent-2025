@@ -20,7 +20,6 @@ public class UD8ejercicio01 {
 		this.altura = 0;
 	}
 	
-	
 
 	public String getNombre() {
 		return nombre;
