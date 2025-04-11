@@ -3,7 +3,7 @@ package UD09HerenciasCine;
 import javax.swing.JOptionPane;
 
 public class ej06asientos {
-	
+
 	private char[][] asientos; // Matriz que representa la sala de cine con los asientos
 
 	// Constructor que inicializa la matriz de asientos
@@ -68,5 +68,4 @@ public class ej06asientos {
 		JOptionPane.showMessageDialog(null, "Ese asiento ya está ocupado.");
 		return false;
 	}
-
 }

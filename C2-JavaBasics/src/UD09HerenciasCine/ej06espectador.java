@@ -3,7 +3,8 @@ package UD09HerenciasCine;
 import javax.swing.JOptionPane;
 
 public class ej06espectador {
-	
+
+	// Atributos del espectador
 	private String nombre; // Guarda el nombre del espectador
 	private int edad; // Guarda la edad del espectador
 	private double dinero; // Guarda el dinero disponible del espectador
@@ -52,5 +53,4 @@ public class ej06espectador {
 			return false; // Retorna falso porque no puede ver la película
 		}
 	}
-
 }
