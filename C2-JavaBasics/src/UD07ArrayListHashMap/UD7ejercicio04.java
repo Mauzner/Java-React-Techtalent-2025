@@ -50,7 +50,7 @@ public class UD7ejercicio04 {
 		agregarProducto("Huevos", 3.50, 60, .21);
 	}
 
-	//  Agrega un producto al inventario
+	// Agrega un producto al inventario
 	private static void agregarProducto(String nombre, double precio, int stock, double iva) {
 		HashMap<String, Double> info = new HashMap<>();
 		info.put("precio", precio);
@@ -100,7 +100,7 @@ public class UD7ejercicio04 {
 		}
 	}
 
-	//  Lista los productos disponibles
+	// Lista los productos disponibles
 	private static void listarProductos() {
 		StringBuilder listaProductos = new StringBuilder("===== LISTA DE PRODUCTOS =====\n");
 		inventario.forEach((producto, info) -> {
@@ -110,7 +110,7 @@ public class UD7ejercicio04 {
 		JOptionPane.showMessageDialog(null, listaProductos.toString());
 	}
 
-	//  Consulta un producto en el inventario
+	// Consulta un producto en el inventario
 	private static void consultarProducto() {
 		String articulo = JOptionPane.showInputDialog("Introduce el nombre del artículo:").toLowerCase();
 		if (inventario.containsKey(articulo)) {
@@ -122,7 +122,7 @@ public class UD7ejercicio04 {
 		}
 	}
 
-	//  Añade o actualiza un producto en el inventario
+	// Añade o actualiza un producto en el inventario
 	private static void añadirOActualizarProducto() {
 		String articulo = JOptionPane.showInputDialog("Introduce el nombre del artículo:").toLowerCase();
 
@@ -140,7 +140,7 @@ public class UD7ejercicio04 {
 		}
 	}
 
-	//  Permite vender productos (JOptionPane) y descuenta stock
+	// Permite vender productos (JOptionPane) y descuenta stock
 	private static void venderProducto() {
 		String producto = JOptionPane.showInputDialog("Introduce el nombre del producto:").toLowerCase();
 		if (inventario.containsKey(producto)) {
@@ -158,7 +158,7 @@ public class UD7ejercicio04 {
 		}
 	}
 
-	//  Calcula el total de la compra y finaliza la venta
+	// Calcula el total de la compra y finaliza la venta
 	private static void finalizarCompra() {
 		if (carrito.isEmpty()) {
 			JOptionPane.showMessageDialog(null, "No hay productos en el carrito.");
