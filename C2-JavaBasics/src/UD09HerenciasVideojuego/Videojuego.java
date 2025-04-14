@@ -1,6 +1,6 @@
 package UD09HerenciasVideojuego;
 
-public class Videojuego  {
+public class Videojuego {
 	private String titulo;
 	private int horasEstimadas;
 	private boolean entregado;
