@@ -1,7 +1,8 @@
 package UD08Poo;
 
-public class UD8ejercicio01 {
-
+public class UD8ejercicio01Persona {
+	
+	//Atributos
 	private String nombre;
 	private int edad;
 	private String dni;
@@ -10,8 +11,10 @@ public class UD8ejercicio01 {
 	private double altura;
 	
 	public static final char SEXO_HOMBRE = 'H';
+	
+	//Constructores
 
-	UD8ejercicio01() {
+	public UD8ejercicio01Persona() {
 		this.nombre = "";
 		this.edad = 0;
 		this.dni = " Sin dni";
@@ -20,7 +23,17 @@ public class UD8ejercicio01 {
 		this.altura = 0;
 	}
 	
+	public UD8ejercicio01Persona(String nombre, int edad, String dni, char sexo, double peso, double altura) {
+		this.nombre = nombre;
+		this.edad = edad;
+		this.dni = dni;
+		this.sexo = sexo;
+		this.peso = peso;
+		this.altura = altura;
+	}
 
+	//Getters y Setters
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -69,14 +82,6 @@ public class UD8ejercicio01 {
 		this.altura = altura;
 	}
 	
-	
 
-	UD8ejercicio01(String nombre, int edad, String dni, char sexo, double peso, double altura) {
-		this.nombre = nombre;
-		this.edad = edad;
-		this.dni = dni;
-		this.sexo = sexo;
-		this.peso = peso;
-		this.altura = altura;
-	}
+	
 }
