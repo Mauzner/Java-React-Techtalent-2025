@@ -24,7 +24,7 @@ CREATE TABLE se_compone (
     FOREIGN KEY (num_serie) REFERENCES productos ( num_serie ),
     FOREIGN KEY (num_pedido) REFERENCES ventas_compras (num_pedido)
 );
-CREATE TABLE vantas_compras (
+CREATE TABLE ventas_compras (
     num_pedido INT PRIMARY KEY,
     dni VARCHAR(20),
     FOREIGN KEY(dni) REFERENCES clientes (dni)
@@ -32,6 +32,7 @@ CREATE TABLE vantas_compras (
 CREATE TABLE facturas_compra(
     num_compra INT PRIMARY KEY,
     fecha date
+    FOREIGN KEY (num_pedido) REFERENCES ventas_compras(num_pedido)
 );
 CREATE TABLE proveedores(
     dni VARCHAR(20) PRIMARY KEY,
