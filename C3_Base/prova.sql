@@ -1,0 +1,2 @@
+-- Comentari
+SELECT * FROM usuarios;
