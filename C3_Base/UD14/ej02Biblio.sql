@@ -97,4 +97,4 @@ CREATE TABLE prestamo (
     REFERENCE ejemplar (clavejemplar)
     ON DELETE CASCADE
     ON UPDATE CASCADE
-)
+);
