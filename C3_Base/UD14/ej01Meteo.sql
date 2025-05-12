@@ -1,3 +1,6 @@
+CREATE DATABASE meteo;
+USE meteo;
+
 CREATE TABLE estacion (
     id MEDIUMINT UNSIGNED NOT NULL,
     lat VARCHAR(14) NOT NULL,

@@ -1,3 +1,6 @@
+CREATE DATABASE biblio2025;
+USE biblio;
+
 CREATE TABLE editorial (
     claveditoria SMALLINT NOT NULL,
     nombre VARCHAR(60),
