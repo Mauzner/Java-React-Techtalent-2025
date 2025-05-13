@@ -19,5 +19,5 @@ CREATE TABLE muestra (
     hummax TINYINT UNSIGNED,
     velmin SMALLINT UNSIGNED,
     velmax SMALLINT UNSIGNED,
-    KEY (idestacion), FOREIGN KEY (idestacion) REFERENCES estacion(id) ON DELETE NO ACTION ON UPDATE CASCADE
+    PRIMARY KEY (idestacion), FOREIGN KEY (idestacion) REFERENCES estacion(id) ON DELETE NO ACTION ON UPDATE CASCADE
 );
