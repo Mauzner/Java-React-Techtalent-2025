@@ -3,19 +3,17 @@ USE almacenes;
 
 CREATE TABLE almacenes(
     codigo INT AUTO_INCREMENT,
-    lugar NVARCHAR (100) NOT NULL,
+    lugar VARCHAR (100) NOT NULL,
     capacidad INT,
-    PRIMARY KEY (codigo)
-);
+    PRIMARY KEY (codigo));
 
 CREATE TABLE cajas(
     nref CHAR(5),
-    contenido NVARCHAR(100) NOT NULL,
+    contenido VARCHAR(100) NOT NULL,
     valor FLOAT,
     almacen INT,
     PRIMARY KEY (nref),
     FOREIGN KEY (almacen)
-    REFERENCE almacenes (codigo)
+    REFERENCES almacenes (codigo)
     ON DELETE CASCADE 
-    ON UPDATE CASCADE
-);
+    ON UPDATE CASCADE);

@@ -3,12 +3,12 @@ USE proycientif;
 
 CREATE TABLE cientificos (
     dni VARCHAR(9) NOT NULL,
-    nomapels NVARCHAR (255) NOT NULL,
+    nomapels VARCHAR (255) NOT NULL,
     PRIMARY KEY(dni));
 
 CREATE TABLE proyectos (
     id CHAR(4) NOT NULL,
-    nombre NVARCHAR (255) NOT NULL,
+    nombre VARCHAR (255) NOT NULL,
     horas INT,
     PRIMARY KEY(id));
 
