@@ -1,5 +1,5 @@
-CREATE DATABE empleadosdepartamentos;
-USE empleadosdepartamentos;
+CREATE DATABE empsdepart;
+USE empsdepart;
 
 CREATE TABLE departamentos(
     codigo INT AUTO_INCREMENT,

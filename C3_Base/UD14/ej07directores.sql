@@ -1,5 +1,5 @@
-CREATE DATABASE directores_despachos;
-USE directores_despachos;
+CREATE DATABASE directores;
+USE directores;
 
     CREATE TABLE despachos(
         num INT,
