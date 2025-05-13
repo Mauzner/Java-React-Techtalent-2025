@@ -1,4 +1,4 @@
-CREATE DATABE empsdepart;
+CREATE DATABASE empsdepart;
 USE empsdepart;
 
 CREATE TABLE departamentos(
