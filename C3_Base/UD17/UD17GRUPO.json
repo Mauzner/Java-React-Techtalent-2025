@@ -167,6 +167,8 @@ facturas_ventas
 
 
 ✅ UPDATES
+
+
 db.clientes.updateOne(
   { _id: 1 },
   { $set: { email: "juan.actualizado@example.com" } }
@@ -179,7 +181,11 @@ db.facturas_venta.updateOne(
   { _id: 2002 },
   { $set: { total: 79.99 } }
 )
+
+
 ❌ DELETES
+
+
 db.clientes.deleteOne(
   { _id: 3 }
 )
@@ -188,4 +194,30 @@ db.productos.deleteOne(
 )
 db.facturas_compra.deleteOne(
   { fecha: "2025-05-01" }
+)
+
+🔍 FINDS
+
+
+Buscar todos los productos con precio mayor a 50
+
+
+db.productos.find(
+  { precio: { $gt: 50 } }
+)
+
+
+Buscar las facturas de venta del cliente con _id 1
+
+
+db.facturas_venta.find(
+  { id_cliente: 1 }
+)
+
+
+Buscar los clientes que viven en una ciudad específica (por ejemplo, Ciudad B)
+
+
+db.clientes.find(
+  { direccion: { $regex: "Ciudad B", $options: "i" } }
 )
