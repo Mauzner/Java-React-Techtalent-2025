@@ -16,7 +16,7 @@ public class Calculadora extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        lblTitulo = new JLabel("Calculadora con Historial (MySQL)");
+        lblTitulo = new JLabel("Calculadora DEM");
         lblTitulo.setBounds(100, 10, 250, 20);
 
         lblNum1 = new JLabel("Número 1:");
@@ -82,7 +82,7 @@ public class Calculadora extends JFrame {
         btnSalir.addActionListener(e -> System.exit(0));
 
         btnAbout.addActionListener(e -> 
-            JOptionPane.showMessageDialog(this, "Calculadora con historial.\nDesarrollado en Java Swing", "Acerca de", JOptionPane.INFORMATION_MESSAGE)
+            JOptionPane.showMessageDialog(this, "Calculadora con historial.\nDesarrollado en DEM", "Acerca de", JOptionPane.INFORMATION_MESSAGE)
         );
 
         btnHistorial.addActionListener(e -> mostrarHistorial());
