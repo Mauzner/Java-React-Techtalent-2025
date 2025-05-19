@@ -10,7 +10,7 @@ public class Calculadora extends JFrame {
     private JLabel lblNum1, lblNum2, lblResultado, lblTitulo;
 
     public Calculadora() {
-        setTitle("Calculadora con MySQL");
+        setTitle("Calculadora DEM");
         setSize(420, 330);
         setLayout(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
