@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class ConexionMySQL01 {
     private static final String URL = "jdbc:mysql://localhost:3306/calculadora_db";
     private static final String USER = "root";
-    private static final String PASSWORD = ""; // Cambiar si tu MySQL tiene contraseña
+    private static final String PASSWORD = ""; 
 
     public static Connection conectar() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);

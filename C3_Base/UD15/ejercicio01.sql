@@ -1,6 +1,6 @@
 
 
--- Insertar 10 tuplas en despachos
+
 INSERT INTO despachos (numero, capacidad) VALUES
 (101, 2),
 (102, 3),
@@ -13,7 +13,7 @@ INSERT INTO despachos (numero, capacidad) VALUES
 (109, 5),
 (110, 3);
 
--- Insertar 10 tuplas en directores
+
 INSERT INTO directores (dni, NomApels, DNIJefe, despacho) VALUES
 ('11111111A', 'Ana Gómez', NULL, 1),
 ('22222222B', 'Luis Pérez', '11111111A', 2),
