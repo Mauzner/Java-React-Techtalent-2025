@@ -1,0 +1,30 @@
+Fabricantes
+
+[
+  { "_id": 1, "nombre": "TechGlobal", "pais": "EE.UU.", "anioFundacion": 1995 },
+  { "_id": 2, "nombre": "Innovatek", "pais": "Alemania", "anioFundacion": 2003 },
+  { "_id": 3, "nombre": "Futura Corp", "pais": "Japón", "anioFundacion": 1987 },
+  { "_id": 4, "nombre": "NeoElectrics", "pais": "Corea del Sur", "anioFundacion": 2010 },
+  { "_id": 5, "nombre": "EcoTech", "pais": "Suecia", "anioFundacion": 2008 },
+  { "_id": 6, "nombre": "AlphaDevices", "pais": "Canadá", "anioFundacion": 2012 },
+  { "_id": 7, "nombre": "Orbital Solutions", "pais": "Reino Unido", "anioFundacion": 2001 },
+  { "_id": 8, "nombre": "Quantum Industries", "pais": "China", "anioFundacion": 1990 },
+  { "_id": 9, "nombre": "NanoSystems", "pais": "India", "anioFundacion": 2015 },
+  { "_id": 10, "nombre": "PixelWorks", "pais": "Australia", "anioFundacion": 1998 }
+]
+
+Articulos 
+
+[
+  { "_id": 101, "nombre": "Sensor de movimiento", "categoria": "Seguridad", "precio": 49.99, "stock": 120, "fabricante_id": 1 },
+  { "_id": 102, "nombre": "Controlador domótico", "categoria": "Automatización", "precio": 89.90, "stock": 80, "fabricante_id": 2 },
+  { "_id": 103, "nombre": "Router Wi-Fi 6", "categoria": "Redes", "precio": 129.00, "stock": 45, "fabricante_id": 3 },
+  { "_id": 104, "nombre": "Cámara IP 360°", "categoria": "Seguridad", "precio": 59.50, "stock": 70, "fabricante_id": 4 },
+  { "_id": 105, "nombre": "Panel solar portátil", "categoria": "Energía", "precio": 210.00, "stock": 35, "fabricante_id": 5 },
+  { "_id": 106, "nombre": "Termostato inteligente", "categoria": "Climatización", "precio": 99.95, "stock": 60, "fabricante_id": 6 },
+  { "_id": 107, "nombre": "Detector de humo Wi-Fi", "categoria": "Seguridad", "precio": 34.90, "stock": 150, "fabricante_id": 7 },
+  { "_id": 108, "nombre": "Enchufe inteligente", "categoria": "Automatización", "precio": 24.99, "stock": 200, "fabricante_id": 8 },
+  { "_id": 109, "nombre": "Pantalla táctil 7\"", "categoria": "Pantallas", "precio": 159.00, "stock": 25, "fabricante_id": 9 },
+  { "_id": 110, "nombre": "Mini PC industrial", "categoria": "Computación", "precio": 350.00, "stock": 15, "fabricante_id": 10 }
+]
+
