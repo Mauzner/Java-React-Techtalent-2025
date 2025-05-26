@@ -1,3 +1,5 @@
+1
+
 Fabricantes
 
 [
@@ -28,3 +30,34 @@ Articulos
   { "_id": 110, "nombre": "Mini PC industrial", "categoria": "Computación", "precio": 350.00, "stock": 15, "fabricante_id": 10 }
 ]
 
+2
+
+Directores 
+
+[
+  { "_id": 1, "nombre": "Laura Gómez", "departamento": "Finanzas", "email": "laura.gomez@empresa.com", "telefono": "600123456" },
+  { "_id": 2, "nombre": "Carlos Ruiz", "departamento": "Recursos Humanos", "email": "carlos.ruiz@empresa.com", "telefono": "600654321" },
+  { "_id": 3, "nombre": "Ana Torres", "departamento": "Marketing", "email": "ana.torres@empresa.com", "telefono": "600112233" },
+  { "_id": 4, "nombre": "Jorge Martínez", "departamento": "Operaciones", "email": "jorge.martinez@empresa.com", "telefono": "600998877" },
+  { "_id": 5, "nombre": "Marta Pérez", "departamento": "Ventas", "email": "marta.perez@empresa.com", "telefono": "600445566" },
+  { "_id": 6, "nombre": "Luis Fernández", "departamento": "Legal", "email": "luis.fernandez@empresa.com", "telefono": "600334455" },
+  { "_id": 7, "nombre": "Isabel Ramírez", "departamento": "I+D", "email": "isabel.ramirez@empresa.com", "telefono": "600778899" },
+  { "_id": 8, "nombre": "Diego Castro", "departamento": "TI", "email": "diego.castro@empresa.com", "telefono": "600223344" },
+  { "_id": 9, "nombre": "Sofía Morales", "departamento": "Producción", "email": "sofia.morales@empresa.com", "telefono": "600556677" },
+  { "_id": 10, "nombre": "Pedro Sánchez", "departamento": "Logística", "email": "pedro.sanchez@empresa.com", "telefono": "600889900" }
+]
+
+Despachos 
+
+[
+  { "_id": 101, "ubicacion": "Planta 1 - Oficina A", "superficie_m2": 25, "directores_id": 1 },
+  { "_id": 102, "ubicacion": "Planta 2 - Oficina B", "superficie_m2": 30, "directores_id": 2 },
+  { "_id": 103, "ubicacion": "Planta 3 - Oficina C", "superficie_m2": 28, "directores_id": 3 },
+  { "_id": 104, "ubicacion": "Planta 1 - Oficina D", "superficie_m2": 22, "directores_id": 4 },
+  { "_id": 105, "ubicacion": "Planta 2 - Oficina E", "superficie_m2": 26, "directores_id": 5 },
+  { "_id": 106, "ubicacion": "Planta 3 - Oficina F", "superficie_m2": 24, "directores_id": 6 },
+  { "_id": 107, "ubicacion": "Planta 1 - Oficina G", "superficie_m2": 20, "directores_id": 7 },
+  { "_id": 108, "ubicacion": "Planta 2 - Oficina H", "superficie_m2": 32, "directores_id": 8 },
+  { "_id": 109, "ubicacion": "Planta 3 - Oficina I", "superficie_m2": 27, "directores_id": 9 },
+  { "_id": 110, "ubicacion": "Planta 1 - Oficina J", "superficie_m2": 29, "directores_id": 10 }
+]
