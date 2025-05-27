@@ -9,6 +9,7 @@ public class UD19Ej01SaludadorPersonalizable extends JFrame {
 
 	public UD19Ej01SaludadorPersonalizable() {
 		setTitle("Saludador Personalizable");
+		
 		setSize(300, 200);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
