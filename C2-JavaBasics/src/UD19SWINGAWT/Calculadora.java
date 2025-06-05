@@ -82,7 +82,7 @@ public class Calculadora extends JFrame {
         btnSalir.addActionListener(e -> System.exit(0));
 
         btnAbout.addActionListener(e -> 
-            JOptionPane.showMessageDialog(this, "Calculadora con historial.\nDesarrollado en DEM", "Acerca de", JOptionPane.INFORMATION_MESSAGE)
+            JOptionPane.showMessageDialog(this, "Calculadora con historial.\nDesarrollado en DM fak¡lta la E", "Acerca de", JOptionPane.INFORMATION_MESSAGE)
         );
 
         btnHistorial.addActionListener(e -> mostrarHistorial());
