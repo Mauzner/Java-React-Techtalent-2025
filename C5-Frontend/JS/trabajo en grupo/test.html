@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Test Logo Botón</title>
+  <style>
+    .logo-img {
+      width: 150px;
+      cursor: pointer;
+    }
+  </style>
+  <link rel="icon" href="LOGO.png" type="image/x-icon" />
+</head>
+<body>
+
+  <div class="logo">
+    <img src="LOGO.png" alt="Logo Nube Verde" class="logo-img" id="logoBtn" />
+    <h1>Nube Verde</h1>
+  </div>
+
+  <script>
+    document.getElementById('logoBtn').addEventListener('click', function() {
+      window.location.href = 'index.html';
+    });
+  </script>
+
+</body>
+</html>

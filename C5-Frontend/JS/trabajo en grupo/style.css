@@ -1,0 +1,432 @@
+/* ========================
+   BASE Y GENERALES
+======================== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 0.5em 1em;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+/* ========================
+   HEADER Y NAVEGACIÓN
+======================== */
+header,
+footer {
+  background-color: #0a6410;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo-img {
+  display: flex;
+  height: 85px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #90ee90;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* ========================
+   SECCIÓN INICIO / HOME
+======================== */
+.home-fondo {
+  background-image: url('humo-verde.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  padding: 2em;
+ display: flex;
+  justify-content:space-between; /* ← Alinea a la izquierda */
+  align-items: flex-start;
+background-attachment: fixed;
+}
+
+.bienvenida {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 2em;
+  border-radius: 12px;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ========================
+   SECCIÓN SOBRE NOSOTROS
+======================== */
+.sobre-nosotros-fondo {
+  background-image: url('fondo-hojas.png');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+}
+
+.sobre-nosotros {
+  padding: 2em;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f4fff4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-nosotros h2 {
+  color: #0a6410;
+  margin-top: 1.5em;
+}
+
+.sobre-nosotros ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sobre-nosotros ul li {
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+}
+
+.sobre-nosotros button {
+  background-color: #0a6410;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 2em auto 1em auto;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.sobre-nosotros button:hover {
+  background-color: #128c17;
+}
+
+
+/* ========================
+   SECCIÓN PRODUCTOS
+======================== */
+main {
+  padding: 3em 1em;
+  background-color: #e9fce9; /* color suave de fondo */
+}
+
+.productos-destacados {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+.grid-productos {
+  display:flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+}
+
+.producto-card {
+  background-color: rgb(205, 244, 205);
+  border: 1px solid #bde0bd;
+  border-radius: 10px;
+  padding: 1.5em;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  width: 250px;
+  flex: 0 0 auto;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.producto-card h3 {
+  margin: 1em 0 0.5em 0;
+  font-size: 1.2em;
+  color: #0a6410;
+}
+
+.producto-card .precio {
+  margin: 0.5em 0 1em;
+}
+
+.producto-card button {
+  margin-top: auto;
+  background-color: #0a6410;
+  color: white;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.producto-card button:hover {
+  background-color: #128c17;
+}
+
+/* Miniaturas más espaciadas */
+.miniaturas {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+
+/* Imagen principal del producto */
+.producto-principal {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+/* Miniaturas de producto */
+.miniaturas {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.miniaturas img {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  object-fit: cover;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.miniaturas img:hover {
+  transform: scale(1.1);
+  border-color: #0a6410;
+}
+
+/* ========================
+   SECCIÓN PROMOCIONES
+======================== */
+.promo {
+ background-color: rgb(255, 255, 255);
+  padding: 1.2em; /* un poco menos que antes */
+  border-radius: 12px;
+  text-align: center;
+  margin: 1em;
+  max-width: 700px; /* ¡aumenta el ancho! */
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+.promo button {
+  background-color: #0a6410 !important; /* fuerza el color */
+  color: white !important;
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.promo button:hover {
+  background-color: #128c17 !important;
+}
+
+/* ========================
+   LAYOUT GENERAL
+======================== */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 1em;
+}
+
+.card {
+  flex: 1 1 200px;
+  border: 1px solid #ccc;
+  padding: 1em;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.viejo {
+  text-decoration: line-through;
+  color: #888;
+}
+.testimonios {
+  background-color: #ffffff;
+  padding: 1em; /* antes: 1.5em */
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 8em;
+  max-width: 850px; /* antes: 1000px o automático */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonios h2 {
+  color: #000000;
+  margin-bottom: 1.5em;
+}
+
+.testimonios-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  flex-wrap: wrap;
+}
+
+.testimonio {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 0.8em; /* antes: 1.2em */
+  margin: 0.5em;
+  border-radius: 8px;
+  font-size: 0.9em; /* reduce texto ligeramente */
+  flex: 1;
+  min-width: 200px;
+}
+
+.testimonio p {
+  font-style: italic;
+  margin-bottom: 0.8em;
+}
+
+.testimonio h4 {
+  color: #0a6410;
+  margin: 0;
+}
+.columna-central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  margin: 0 1em;
+}
+.contacto-fondo {
+  background-image: url('../images/fondo-hojas.png');
+  background-size: cover;
+  background-position: center;
+  padding: 1em;
+}
+
+.contacto-formulario {
+  padding: 1em;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f4fff4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.contacto-formulario h2 {
+  color: #0a6410;
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+.contacto-formulario form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+
+.contacto-formulario label {
+  font-weight: bold;
+  color: #0a6410;
+}
+
+.contacto-formulario input[type="text"],
+.contacto-formulario input[type="email"],
+.contacto-formulario textarea {
+  padding: 0.8em;
+  border: 1px solid #b6ddb6;
+  border-radius: 6px;
+  font-size: 1em;
+  background-color: #ffffff;
+  transition: border 0.3s ease;
+}
+
+.contacto-formulario input:focus,
+.contacto-formulario textarea:focus {
+  border: 1px solid #0a6410;
+  outline: none;
+  box-shadow: 0 0 5px rgba(10, 100, 16, 0.2);
+}
+
+.contacto-formulario textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contacto-formulario button[type="submit"] {
+  background-color: #0a6410;
+  color: white;
+  font-weight: bold;
+  padding: 0.8em 1.5em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  align-self: center;
+  transition: background-color 0.3s ease;
+}
+
+.contacto-formulario button[type="submit"]:hover {
+  background-color: #128c17;
+}
+
+#mensaje-validacion {
+  color: #d70000;
+  font-size: 0.95em;
+  margin-top: -10px;
+}
+

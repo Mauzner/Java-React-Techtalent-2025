@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Detalle del Producto</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2em; background-color: #e9fce9; }
+    .producto { max-width: 500px; margin: 0 auto; background: white; padding: 2em; border-radius: 10px; box-shadow: 0 0 10px #aaa; }
+    img { width: 100%; border-radius: 8px; }
+    h1 { color: #0a6410; }
+    .precio { font-size: 1.5em; color: #128c17; margin: 1em 0; }
+    button { background-color: #0a6410; color: white; border: none; padding: 0.7em 1.5em; border-radius: 6px; cursor: pointer; }
+  </style>
+  <link rel="icon" href="LOGO.png" type="image/x-icon" />
+</head>
+<body>
+  <div class="producto">
+    <img id="imagenProducto" src="" alt="Producto" />
+    <h1 id="nombreProducto"></h1>
+    <p class="precio" id="precioProducto"></p>
+    <button onclick="alert('Producto añadido al carrito')">Añadir al carrito</button>
+  </div>
+
+  <script>
+    // Función para leer parámetros GET
+    function obtenerParametro(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    // Obtener datos
+    const nombre = obtenerParametro('nombre');
+    const precio = obtenerParametro('precio');
+    const imagen = obtenerParametro('imagen');
+
+    // Mostrar datos en el DOM
+    document.getElementById('nombreProducto').textContent = nombre || 'Producto no disponible';
+    document.getElementById('precioProducto').textContent = precio ? `$${precio}` : '';
+    document.getElementById('imagenProducto').src = imagen || 'images/no-image.png';
+  </script>
+</body>
+</html>

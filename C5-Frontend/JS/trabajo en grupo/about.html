@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sobre Nosotros - Nube Verde</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="LOGO.png" type="image/x-icon" />
+</head>
+
+
+<script src="main.js"></script>
+<script>
+  document.getElementById('logoBtn').addEventListener('click', function() {
+    window.location.href = 'index.html';
+  });
+</script>
+
+<body>
+  <header>
+    <div class="logo">
+         
+      <img src="LOGO.png" alt="Logo Nube Verde" class="logo-img" style="cursor:pointer;" onclick="window.location.href='index.html'">
+      <h1>Nube Verde</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Sobre Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="sobre-nosotros-fondo">
+    <section class="sobre-nosotros">
+      <h2>🌿 Nuestra Historia</h2>
+      <p>Nube Verde nació de la pasión por las plantas, la salud natural y el bienestar consciente. Somos un grupo de personas comprometidas con la cultura cannábica responsable, el activismo y el acceso seguro a información y productos de calidad.</p>
+
+      <h2>👥 ¿Quiénes somos?</h2>
+      <p>Somos cultivadores, consumidores informados, diseñadores y creadores de comunidad. Nube Verde no es solo una web, es un espacio para compartir conocimiento, apoyar negocios sostenibles y fomentar el respeto por la naturaleza.</p>
+
+      <h2>💚 Nuestra Filosofía</h2>
+      <ul>
+        <li>🌱 Apoyamos el cultivo ecológico y el autoconsumo responsable.</li>
+        <li>📚 Creemos en la información libre, clara y sin tabúes.</li>
+        <li>🤝 Fomentamos el respeto y la comunidad.</li>
+        <li>🌍 Apostamos por productos locales, orgánicos y sostenibles.</li>
+      </ul>
+
+      <button onclick="mostrarFrase()">Haz clic para inspirarte 🌞</button>
+      <p id="fraseInspiradora" style="margin-top:1em; font-style: italic;"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nube Verde. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
