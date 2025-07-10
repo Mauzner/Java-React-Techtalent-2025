@@ -13,5 +13,13 @@
     "fecha": "09/07/2025",
     "id": 2,
     "nombre": "David"
+  },
+  {
+    "contraseña": 242424242424,
+    "correo": "ojdqiie@gmail.com",
+    "edad": "14",
+    "fecha": "10/07/2025",
+    "id": 3,
+    "nombre": "Ivette"
   }
 ]
