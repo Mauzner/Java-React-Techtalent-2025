@@ -98,5 +98,28 @@
       "id": 3,
       "nombre": "Ivette"
     }
+  ],
+  "perfiles": [
+    {
+      "nombre": "David Romero",
+      "descripción": "Frontend developer passionate about UI/UX and accessibility.",
+      "Github": "https://github.com/DavidRomeroSanMillan",
+      "Linkedin": "https://www.linkedin.com/in/david-romero-san-millan/",
+      "imagen": "https://pr0j3ct.com/wp-content/uploads/2025/07/david-romero.jpeg"
+    },
+    {
+      "nombre": "Ivette Margalló",
+      "descripción": "Backend specialist focused on scalable and secure APIs.",
+      "Github": "https://github.com/iveette24",
+      "Linkedin": "https://www.linkedin.com/in/ivette-margalló-62170235a/?trk=opento_sprofile_topcard",
+      "imagen": "https://pr0j3ct.com/wp-content/uploads/2025/07/ivette.jpg"
+    },
+    {
+      "nombre": "Marc Mauzner",
+      "descripción": "Fullstack developer and DevOps enthusiast.",
+      "Github": "https://github.com/Mauzner",
+      "Linkedin": "https://www.linkedin.com/in/marc-mauzner-candalija/",
+      "imagen": "https://pr0j3ct.com/wp-content/uploads/2025/07/marc.jpg"
+    }
   ]
 }
