@@ -1,0 +1,102 @@
+{
+  "comentarios": [
+    {
+      "contenido": "falta de elemento sonoro",
+      "fecha_comentario": "09/07/2025",
+      "id_comentario": 0,
+      "id_reportes": 3
+    },
+    {
+      "contenido": "falta de elemento sonoro",
+      "fecha_comentario": "09/07/2025",
+      "id_comentario": 1,
+      "id_reportes": 2
+    },
+    {
+      "contenido": "construcción de rampa",
+      "fecha_comentario": "09/07/2025",
+      "id_comentario": 2,
+      "id_reporte": 1
+    }
+  ],
+  "reportes": [
+    {
+      "Descripción": "dsadsadsadas",
+      "Titulo": "Rampa",
+      "estado": "pendiente",
+      "fecha": "09/07/2025",
+      "foto": "https/wodkwodkowdw.img",
+      "id_reporte": 1,
+      "id_usuario": 1,
+      "tipo": "rampa",
+      "ubicación": "carrer major n14"
+    },
+    {
+      "Descripción": "Falta de rampa para las personas en silla de ruedas",
+      "Titulo": "Rampa",
+      "estado": "pendiente",
+      "fecha": "09/07/2025",
+      "foto": "https/wodkwodkowdw.img",
+      "id_reporte": 2,
+      "id_usuario": 1,
+      "tipo": "rampa",
+      "ubicación": "carrer major n14"
+    },
+    {
+      "descripción": "falta de elemento sonoro para cruzar la calle",
+      "estado": "pendiente",
+      "fecha": "09/07/2025",
+      "foto": "https/oijdiioke.img",
+      "id_reporte": 3,
+      "id_usuario": 2,
+      "tipo": "sonoro",
+      "titulo": "semaforo",
+      "ubicación ": "rambla vella n2"
+    },
+    {
+      "Descripción": "Falta de rampa para las personas en silla de ruedas",
+      "Titulo": "Rampa",
+      "estado": "pendiente",
+      "fecha": "09/07/2025",
+      "foto": "https/wodkwodkowdw.img",
+      "id_reporte": 4,
+      "id_usuario": 2,
+      "tipo": "rampa",
+      "ubicación": "carrer major n14"
+    }
+  ],
+  "usuarios": [
+    {
+      "contraseña": 1234567890,
+      "correo": "kldjjsw@gmail.com",
+      "edad": 39,
+      "fecha": "09/07/2025",
+      "id": 0,
+      "nombre": "Marc"
+    },
+    {
+      "contraseña": 1234567890,
+      "correo": "kldjjsw@gmail.com",
+      "edad": 39,
+      "fecha": "09/07/2025",
+      "id": 1,
+      "nombre": "Hassan"
+    },
+    {
+      "contraseña": 987654321,
+      "correo": "jwop@gmail.com",
+      "edad": 25,
+      "fecha": "09/07/2025",
+      "id": 2,
+      "nombre": "David"
+    },
+    {
+      "contraseña": 242424242424,
+      "correo": "ojdqiie@gmail.com",
+      "edad": 14,
+      "fecha": "10/07/2025",
+      "id": 3,
+      "nombre": "Ivette"
+    }
+  ]
+}
