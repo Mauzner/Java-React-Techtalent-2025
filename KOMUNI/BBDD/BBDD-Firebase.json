@@ -99,7 +99,7 @@
       "nombre": "Ivette"
     }
   ],
-  "perfiles": [
+  "admins": [
     {
       "nombre": "David Romero",
       "descripción": "Frontend developer passionate about UI/UX and accessibility.",
