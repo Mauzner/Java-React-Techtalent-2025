@@ -21,48 +21,44 @@
   ],
   "reportes": [
     {
-      "Descripción": "dsadsadsadas",
-      "Titulo": "Rampa",
-      "estado": "pendiente",
-      "fecha": "09/07/2025",
-      "foto": "https/wodkwodkowdw.img",
-      "id_reporte": 1,
-      "id_usuario": 1,
-      "tipo": "rampa",
-      "ubicación": "carrer major n14"
+      "id": "number",
+      "calle": "string",
+      "descripción": "string",
+      "informaciónExtra": "string",
+      "imagen": "string",
+      "latitud": "number",
+      "longitud": "number",
+      "fecha": "string"
     },
     {
-      "Descripción": "Falta de rampa para las personas en silla de ruedas",
-      "Titulo": "Rampa",
-      "estado": "pendiente",
-      "fecha": "09/07/2025",
-      "foto": "https/wodkwodkowdw.img",
-      "id_reporte": 2,
-      "id_usuario": 1,
-      "tipo": "rampa",
-      "ubicación": "carrer major n14"
+      "id": "number",
+      "calle": "string",
+      "descripción": "string",
+      "informaciónExtra": "string",
+      "imagen": "string",
+      "latitud": "number",
+      "longitud": "number",
+      "fecha": "string"
     },
     {
-      "descripción": "falta de elemento sonoro para cruzar la calle",
-      "estado": "pendiente",
-      "fecha": "09/07/2025",
-      "foto": "https/oijdiioke.img",
-      "id_reporte": 3,
-      "id_usuario": 2,
-      "tipo": "sonoro",
-      "titulo": "semaforo",
-      "ubicación ": "rambla vella n2"
+      "id": "number",
+      "calle": "string",
+      "descripción": "string",
+      "informaciónExtra": "string",
+      "imagen": "string",
+      "latitud": "number",
+      "longitud": "number",
+      "fecha": "string"
     },
     {
-      "Descripción": "Falta de rampa para las personas en silla de ruedas",
-      "Titulo": "Rampa",
-      "estado": "pendiente",
-      "fecha": "09/07/2025",
-      "foto": "https/wodkwodkowdw.img",
-      "id_reporte": 4,
-      "id_usuario": 2,
-      "tipo": "rampa",
-      "ubicación": "carrer major n14"
+      "id": "number",
+      "calle": "string",
+      "descripción": "string",
+      "informaciónExtra": "string",
+      "imagen": "string",
+      "latitud": "number",
+      "longitud": "number",
+      "fecha": "string"
     }
   ],
   "usuarios": [
@@ -120,6 +116,14 @@
       "Github": "https://github.com/Mauzner",
       "Linkedin": "https://www.linkedin.com/in/marc-mauzner-candalija/",
       "imagen": "https://pr0j3ct.com/wp-content/uploads/2025/07/marc.jpg"
+    }
+  ],
+  "contactpage": [
+    {
+      "nombre": "",
+      "email": "",
+      "asunto": "",
+      "mensaje": ""
     }
   ]
 }
